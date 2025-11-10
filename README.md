@@ -58,6 +58,11 @@ Combining public and clinical datasets enhances **generalization** and **real-wo
 ---
 
 ## 📊 Performance
+| Class           | Images | Instances | Precision (P) | Recall (R) | mAP@50 | mAP@50–95 |
+| --------------- | ------ | --------- | ------------- | ---------- | ------ | --------- |
+| **all**         | 542    | 674       | 0.924         | 0.913      | 0.969  | 0.877     |
+| **decayCavity** | 301    | 424       | 0.946         | 0.934      | 0.978  | 0.902     |
+| **earlyCavity** | 243    | 250       | 0.903         | 0.893      | 0.960  | 0.852     |
 
 
 ---
@@ -67,9 +72,12 @@ Combining public and clinical datasets enhances **generalization** and **real-wo
 SDG 3: Good Health and Well-being – promotes early oral disease detection
 
 Accessibility: Provides screening for remote and underserved areas
-
 Scalability: Easily adaptable for mobile or telehealth environments
+
+
 ---
+
+
 ##🧩 Future Enhancements
 
 📱 Mobile app integration for remote uploads
